@@ -28,6 +28,7 @@ label{
 .option{
   background-color: white;
   width: 36vh;
+  height: 19vh;
   margin: auto;
   margin-top: 2vh;
   border: 0.1vh solid gray;
@@ -66,4 +67,7 @@ button{
 }
 .btn{
   margin: 2vh;
+}
+#gender{
+  height: 11vh;
 }
