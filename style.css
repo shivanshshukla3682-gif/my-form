@@ -1,0 +1,77 @@
+body{
+  background-color: #F0EDF9;
+}
+div{
+  display: flex;
+  flex-direction: column;
+  width: 36vh;
+  background-color: white;
+  margin: auto;
+  margin-top: 2vh;
+  padding: 3vh;
+  border-radius: 1vh;
+  border:0.1vh solid gray;
+  font-size: 2vh;
+}
+.form{
+  height: 11vh;
+  gap: 4vh;
+}
+.x{
+  padding-left: 3vh;
+  padding-bottom: 3vh;
+  border-top: 2vh solid blue;
+}
+input{
+  height: 4vh;
+  border: none;
+  border-bottom: 2px solid blue;
+  outline: none;
+  font-size: 2vh;
+}
+.branch{
+  background-color: white;
+  width: 37vh;
+  margin: auto;
+  margin-top: 2vh;
+  border: 0.1vh solid gray;
+  border-radius: 1vh;
+  padding: 2.5vh;
+}
+label{
+  font-size: 1.8vh;
+}
+.n{
+  font-size: 1.5vh;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+.gen{
+  display: flex;
+  flex-direction: column;
+  height: 11vh;
+  font-size: 1.8vh;
+  align-items: flex-start;
+  gap: 1vh;
+}
+button{
+  height: 5vh;
+  width: 10vh;
+  background-color: red;
+  border: 2px solid #F0EDF9;
+  border-radius: 1vh;
+  font-size: 2vh;
+}
+.r{
+  float: right;
+  margin: 2vh;
+}
+.info{
+  display: flex;
+  justify-content: center;
+  font-size: 1vh;
+}
+.btn{
+  margin: 2vh;
+}
