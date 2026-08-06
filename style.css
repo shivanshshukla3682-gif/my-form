@@ -4,7 +4,7 @@ body{
 div{
   display: flex;
   flex-direction: column;
-  width: 36vh;
+  width: 38vh;
   background-color: white;
   margin: auto;
   margin-top: 2vh;
@@ -31,7 +31,7 @@ input{
 }
 .branch{
   background-color: white;
-  width: 37vh;
+  width: 39vh;
   margin: auto;
   margin-top: 2vh;
   border: 0.1vh solid gray;
@@ -42,7 +42,7 @@ label{
   font-size: 1.8vh;
 }
 .n{
-  font-size: 1.3vh;
+  font-size: 1.5vh;
   display: flex;
   align-items: center;
   gap: 10px;
