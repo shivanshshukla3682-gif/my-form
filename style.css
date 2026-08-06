@@ -4,7 +4,7 @@ body{
 div{
   display: flex;
   flex-direction: column;
-  width: 275px;
+  width: 36vh;
   background-color: white;
   margin: auto;
   margin-top: 2vh;
@@ -20,14 +20,14 @@ div{
 }
 .form{
   height: 12vh;
-  gap: 35px
+  gap: 4.5vh;
 }
 label{
   font-size: 1.8vh;
 }
 .option{
   background-color: white;
-  width: 280px;
+  width: 37vh;
   margin: auto;
   margin-top: 2vh;
   border: 0.1vh solid gray;
