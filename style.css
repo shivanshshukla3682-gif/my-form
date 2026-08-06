@@ -13,23 +13,19 @@ div{
   border:0.1vh solid gray;
   font-size: 2vh;
 }
-.form{
-  height: 11vh;
-  gap: 4vh;
-}
 .x{
   padding-left: 3vh;
   padding-bottom: 3vh;
-  border-top: 2vh solid blue;
+  border-top: 1.5vh solid blue;
 }
-input{
-  height: 4vh;
-  border: none;
-  border-bottom: 2px solid blue;
-  outline: none;
-  font-size: 2vh;
+.form{
+  height: 12vh;
+  gap: 35px
 }
-.branch{
+label{
+  font-size: 1.8vh;
+}
+.option{
   background-color: white;
   width: 39vh;
   margin: auto;
@@ -38,22 +34,18 @@ input{
   border-radius: 1vh;
   padding: 2.5vh;
 }
-label{
-  font-size: 1.8vh;
-}
 .n{
   font-size: 1.5vh;
   display: flex;
   align-items: center;
   gap: 10px;
 }
-.gen{
-  display: flex;
-  flex-direction: column;
-  height: 11vh;
-  font-size: 1.8vh;
-  align-items: flex-start;
-  gap: 1vh;
+input{
+  height: 4vh;
+  border: none;
+  border-bottom: 2px solid blue;
+  outline: none;
+  font-size: 2vh;
 }
 button{
   height: 5vh;
