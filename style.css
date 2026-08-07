@@ -4,70 +4,80 @@ body{
 div{
   display: flex;
   flex-direction: column;
-  width: 35.5vh;
+  width: 70%;
+  max-width: 400px;
   background-color: white;
   margin: auto;
-  margin-top: 2vh;
-  padding: 3vh;
-  border-radius: 1vh;
-  border:0.1vh solid gray;
-  font-size: 2vh;
+  margin-top: 14px;
+  padding: 26px;
+  border-radius: 10px;
+  border: 1px solid gray;
+  font-size: 19px;
 }
 .x{
-  padding-left: 3vh;
-  padding-bottom: 3vh;
-  border-top: 1.5vh solid blue;
+  padding-left: 26px;
+  padding-bottom: 30px;
+  border-top: 15px solid blue;
 }
 .form{
-  height: 12vh;
-  gap: 4.5vh;
+  display: flex;
+  flex-direction: column;
+  gap: 43px;
 }
 label{
-  font-size: 1.8vh;
+  font-size: 14px;
 }
 .option{
+  display: flex;
+  flex-direction: column;
   background-color: white;
-  width: 36vh;
-  height: 19vh;
+  width: 70%;
+  max-width: 400px;
   margin: auto;
-  margin-top: 2vh;
-  border: 0.1vh solid gray;
-  border-radius: 1vh;
-  padding: 2.5vh;
+  margin-top: 14px;
+  border: 1px solid gray;
+  border-radius: 10px;
+  padding: 26px;
+  gap: 8px;
 }
 .n{
-  font-size: 1.4vh;
+  font-size: 10px;
   display: flex;
   align-items: center;
   gap: 10px;
 }
 input{
-  height: 4vh;
   border: none;
   border-bottom: 2px solid blue;
   outline: none;
-  font-size: 2vh;
+  font-size: 17px;
 }
-button{
-  height: 5vh;
-  width: 10vh;
+.button .btn{
+  height: 42px;
+  width: 86px;
   background-color: red;
   border: 2px solid #F0EDF9;
-  border-radius: 1vh;
-  font-size: 2vh;
+  border-radius: 10px;
+  font-size: 14px;
 }
 .r{
-  float: right;
-  margin: 2vh;
+  height: 42px;
+  width: 86px;
+  border: none;
+  font-size: 16px;
 }
 .info{
   display: flex;
   justify-content: center;
-  font-size: 1vh;
+  font-size: 10px ;
 }
 .btn{
-  margin: 2vh;
+  margin: 20px;
 }
-#gender{
-  height: 11vh;
+.button{
+  display: flex;
+  justify-content: center;
+  gap: 160px;
+  align-items: center;
+  width: 100%;
 }
