@@ -12,22 +12,23 @@
       <h1>BUS SERVICE</h1>
       <label>जिन छात्रों को लखीमपुर खीरी से कॉलेज तक बस सर्विस लेना चाह रहे है । कृपया वही ये फॉर्म भरे</label>
       </div>
-      <form action="file">
+      <form action="https://api.web3forms.com/submit" method="post">
+        <input type="hidden" name="access_key" value="c5938cc5-a324-4ae7-b11d-cd865ee26376">
          <div class="form">
             <label for="name">STUDENT NAME *</label>
-            <input type="text" placeholder="YOUR ANSWER" name="student" ID="name"required/>
+            <input type="text" placeholder="YOUR ANSWER" name="STUDENT NAME" ID="name"required/>
             </div>
             <fieldset class="option" id="option">
                <label>BRANCH *</label>
                <label class="n" for="civil">
-                  <input type="radio" name="option" value="CIVIL" id="civil" required>CIVIL ENGINEERING</label>
+                  <input type="radio" name="BRANCH" value="CIVIL" id="civil" required>CIVIL ENGINEERING</label>
                   <label class="n" for="cse">
-                     <input type="radio" name="option" value="cse" id="cse"/>COMPUTER SCIENCE AND ENGINEERING
+                     <input type="radio" name="BRANCH" value="cse" id="cse"/>COMPUTER SCIENCE AND ENGINEERING
                    </label>
                   <label class="n" for="eee">
-                     <input type="radio" name="option" value="ELECTRICAL And ELECTRONICS" id="eee" /> ELECTRICAL AND ELECTRONICS ENGINEERING </label>
+                     <input type="radio" name="BRANCH" value="ELECTRICAL And ELECTRONICS" id="eee" /> ELECTRICAL AND ELECTRONICS ENGINEERING </label>
                   <label class="n" for="mechanical">
-                     <input type="radio" name="option" value="MECHANICAL" id="mechanical" /> MECHANICAL ENGINEERING</label>
+                     <input type="radio" name="BRANCH" value="MECHANICAL" id="mechanical" /> MECHANICAL ENGINEERING</label>
               </fieldset>
               <fieldset class="option" id="gender">
                 <label>GENDER *</label>
@@ -56,7 +57,7 @@
                <button type="submit"class="btn">SUBMIT</button>
                <button type="reset" class="r">Reset </button>
                </footer>
-  </form>
+      </form>
   <p class="info">THIS IS MY PERSONAL WEB</p>
   <p class="info">CREATED BY-      SHIVANSH SHUKLA</p>
 <script src="y.js"></script>
